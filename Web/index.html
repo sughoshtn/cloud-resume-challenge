@@ -13,7 +13,19 @@
 
 	</head>
 	<body>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"/>
+		<script>
+        if (document.location.origin == "https://resume.sughoshnagarajan.com") {
+            $(document).ready(function() {
+                $.ajax({
+                    url: "https://8vep8yby78.execute-api.us-east-2.amazonaws.com/fn-site-visit-counter",
+                    success: function(result) {
+                        $("#counter").html(result);
+                    }
+                });
+            });
+        }
+		</script>
 		<div id="doc2" class="yui-t7">
 			<div id="inner">
 	
@@ -195,6 +207,10 @@
 
 			<div id="ft">
 				<p>Sughosh &mdash;<a href="mailto:sughosh.nagarajan@sky.de">sughosh.nagarajan@sky.de</a>&mdash; +49 15758169186</p>
+				<div>
+        Visitor Count:
+					<span id='counter' p>< span>
+				</div>
 			</div><!--// footer -->
 
 		</div><!-- // inner -->
