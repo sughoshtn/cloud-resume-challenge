@@ -5,6 +5,7 @@ In 2021, I stumbled upon the Cloud Resume Challenge created by Forrest Brazeal a
 
 However , its just not enough to have a certification and not have a hands on the technology. So, came along the Cloud Resume challenge to get a hands-on practice to apply the skills i was learning.
 
+![image](https://user-images.githubusercontent.com/6101877/223347984-bded98e8-e819-451e-bc73-d9101f21e637.png)
 
 The Cloud Resume Challenge
 
