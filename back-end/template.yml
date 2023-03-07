@@ -105,7 +105,7 @@ Resources:
     Type: AWS::Serverless::Api
     Properties:
       Cors:
-        AllowOrigin: "'https://resume.logan-toler.dev'"
+        AllowOrigin: "'https://resume.sughoshnagarajan.com'"
       EndpointConfiguration: Regional
       OpenApiVersion: 3.0.1
       StageName: Prod
